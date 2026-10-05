@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/api-platform-core",
+    "description": "Tyhp type definitions for api-platform/core 4.4.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "4.4.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/api-platform-core-impl": "~4.4.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/api-platform-core-impl"
+        }
+    }
+}
